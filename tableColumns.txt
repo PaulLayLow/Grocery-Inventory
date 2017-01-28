@@ -1,0 +1,11 @@
+CREATE TABLE groceryInventory
+(
+id int NOT NULL PRIMARY KEY,
+name varchar(255),
+quantity int,
+type varchar(255),
+location varchar(255),
+boughtDate date,
+expirationDate date,
+comments varchar(255)
+);
